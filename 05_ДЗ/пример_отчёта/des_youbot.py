@@ -170,6 +170,8 @@ def plant_components(with_giveup=True):
                 'g_ok', 'g_put'],
                {('H', 'b_go_table'): 'mT', ('B', 'b_go_table'): 'mT',
                 ('T', 'b_go_box'): 'mB', ('T', 'b_go_home'): 'mH', ('B', 'b_go_home'): 'mH',
+                # уточнение позиции у стола после промаха захвата
+                ('T', 'b_go_table'): 'mT',
                 ('mT', 'b_arrive'): 'T', ('mB', 'b_arrive'): 'B', ('mH', 'b_arrive'): 'H',
                 ('mT', 'b_block'): 'sT', ('mB', 'b_block'): 'sB', ('mH', 'b_block'): 'sH',
                 ('sT', 'b_replan'): 'mT', ('sB', 'b_replan'): 'mB', ('sH', 'b_replan'): 'mH',

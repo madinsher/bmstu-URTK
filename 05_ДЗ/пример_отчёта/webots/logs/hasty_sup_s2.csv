@@ -1,0 +1,20 @@
+t,kind,name,model_state,info
+2.8,event,v_detect,H/S/O/F/Tb,предмет распознан камерой
+2.8,cmd,b_go_table,mT/S/O/F/Tb,"к (0.03, 0.11)"
+10.512,event,b_arrive,T/S/O/F/Tb,ошибка позы 0.010 м
+10.512,cmd,a_reach,T/R/O/F/Tb,над столом
+13.04,event,a_reached,T/X/O/F/Tb,
+13.04,cmd,g_close,T/X/C/F/Tb,
+14.528,event,g_ok,T/X/D/F/Hn,зазор пальцев 0.0008
+14.528,cmd,a_stow,T/W/D/F/Hn,с предметом
+14.528,denied,b_go_box,T/W/D/F/Hn,"поспешно, не дожидаясь a_stowed"
+17.04,event,a_stowed,T/S/D/F/Hn,
+17.056,cmd,b_go_box,mB/S/D/F/Hn,"поспешно, не дожидаясь a_stowed"
+24.096,event,b_arrive,B/S/D/F/Hn,ошибка позы 0.010 м
+24.096,cmd,a_reach,B/R/D/F/Hn,над контейнером
+26.144,event,a_reached,B/X/D/F/Hn,
+26.144,cmd,g_put,B/X/O/F/Bx,
+27.136,cmd,a_stow,B/W/O/F/Bx,
+29.392,event,a_stowed,B/S/O/F/Bx,
+29.392,cmd,b_go_home,mH/S/O/F/Bx,"к (-1.80, 0.00)"
+37.12,event,b_arrive,H/S/O/F/Bx,ошибка позы 0.010 м

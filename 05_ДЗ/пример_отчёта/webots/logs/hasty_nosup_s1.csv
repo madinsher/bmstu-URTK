@@ -1,0 +1,20 @@
+t,kind,name,model_state,info
+2.8,event,v_detect,-,предмет распознан камерой
+2.8,cmd,b_go_table,-,"к (-0.02, 0.09)"
+10.336,event,b_arrive,-,ошибка позы 0.010 м
+10.336,cmd,a_reach,-,над столом
+12.864,event,a_reached,-,
+12.864,cmd,g_close,-,
+14.352,event,g_ok,-,зазор пальцев 0.0008
+14.352,cmd,a_stow,-,с предметом
+14.352,cmd,b_go_box,-,"поспешно, не дожидаясь a_stowed"
+14.368,R1,нарушение,-,"манипулятор 1.57 рад/с, платформа 0.16 м/с"
+21.264,event,b_arrive,-,ошибка позы 0.010 м
+21.584,event,a_stowed,-,
+21.584,cmd,a_reach,-,над контейнером
+23.632,event,a_reached,-,
+23.632,cmd,g_put,-,
+24.624,cmd,a_stow,-,
+26.88,event,a_stowed,-,
+26.88,cmd,b_go_home,-,"к (-1.80, 0.00)"
+34.608,event,b_arrive,-,ошибка позы 0.010 м

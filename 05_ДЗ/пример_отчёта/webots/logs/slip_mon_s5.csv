@@ -1,0 +1,17 @@
+t,kind,name,model_state,info
+2.8,event,v_detect,H/S/O/F/Tb,предмет распознан камерой
+2.8,cmd,b_go_table,mT/S/O/F/Tb,"к (0.01, 0.07)"
+10.432,event,b_arrive,T/S/O/F/Tb,ошибка позы 0.010 м
+10.432,cmd,a_reach,T/R/O/F/Tb,над столом
+12.96,event,a_reached,T/X/O/F/Tb,
+12.96,cmd,g_close,T/X/C/F/Tb,
+14.448,event,g_ok,T/X/D/F/Hn,зазор пальцев 0.0008
+14.448,cmd,a_stow,T/W/D/F/Hn,с предметом
+16.96,event,a_stowed,T/S/D/F/Hn,
+16.96,cmd,b_go_box,mB/S/D/F/Hn,"к (-0.60, -1.40)"
+19.248,inject,g_slip,mB/S/D/F/Hn,предмет выпал из захвата
+19.424,event,g_slip,mB/S/O/F/Fl,зазор пальцев 0.0003: предмета в захвате нет
+23.824,event,b_arrive,B/S/O/F/Fl,ошибка позы 0.010 м
+23.824,cmd,o_giveup,B/S/O/F/Un,предмет помечен недоступным
+23.824,cmd,b_go_home,mH/S/O/F/Un,"к (-1.80, 0.00)"
+31.552,event,b_arrive,H/S/O/F/Un,ошибка позы 0.010 м

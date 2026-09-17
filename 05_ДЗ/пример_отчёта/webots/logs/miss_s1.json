@@ -1,0 +1,21 @@
+{
+ "run": "miss_s1",
+ "scenario": "miss",
+ "monitor": false,
+ "supervisor": true,
+ "seed": 1,
+ "denied": 0,
+ "r1_violation_steps": 0,
+ "r1_violation_episodes": 0,
+ "events": 13,
+ "result": "delivered",
+ "time_s": 45.98,
+ "object_xy": [
+  -0.596,
+  -1.857
+ ],
+ "object_in_box": true,
+ "model_object": "Bx",
+ "model_marked": true,
+ "false_success": false
+}

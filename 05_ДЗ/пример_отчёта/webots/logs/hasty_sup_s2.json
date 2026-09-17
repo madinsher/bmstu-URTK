@@ -1,0 +1,21 @@
+{
+ "run": "hasty_sup_s2",
+ "scenario": "hasty",
+ "monitor": false,
+ "supervisor": true,
+ "seed": 2,
+ "denied": 1,
+ "r1_violation_steps": 0,
+ "r1_violation_episodes": 0,
+ "events": 9,
+ "result": "delivered",
+ "time_s": 38.11,
+ "object_xy": [
+  -0.596,
+  -1.866
+ ],
+ "object_in_box": true,
+ "model_object": "Bx",
+ "model_marked": true,
+ "false_success": false
+}

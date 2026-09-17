@@ -1,0 +1,21 @@
+{
+ "run": "miss_s2",
+ "scenario": "miss",
+ "monitor": false,
+ "supervisor": true,
+ "seed": 2,
+ "denied": 0,
+ "r1_violation_steps": 0,
+ "r1_violation_episodes": 0,
+ "events": 10,
+ "result": "timeout",
+ "time_s": 301.01,
+ "object_xy": [
+  0.148,
+  0.407
+ ],
+ "object_in_box": false,
+ "model_object": "Hn",
+ "model_marked": false,
+ "false_success": false
+}

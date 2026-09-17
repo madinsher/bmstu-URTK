@@ -1,0 +1,21 @@
+{
+ "run": "slip_mon_s3",
+ "scenario": "slip",
+ "monitor": true,
+ "supervisor": true,
+ "seed": 3,
+ "denied": 0,
+ "r1_violation_steps": 0,
+ "r1_violation_episodes": 0,
+ "events": 8,
+ "result": "gave_up",
+ "time_s": 32.29,
+ "object_xy": [
+  0.08,
+  -0.625
+ ],
+ "object_in_box": false,
+ "model_object": "Un",
+ "model_marked": true,
+ "false_success": false
+}

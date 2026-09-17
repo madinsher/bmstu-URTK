@@ -1,0 +1,21 @@
+{
+ "run": "hasty_nosup_s3",
+ "scenario": "hasty",
+ "monitor": false,
+ "supervisor": false,
+ "seed": 3,
+ "denied": 0,
+ "r1_violation_steps": 131,
+ "r1_violation_episodes": 1,
+ "events": 9,
+ "result": "delivered",
+ "time_s": 35.39,
+ "object_xy": [
+  -0.596,
+  -1.866
+ ],
+ "object_in_box": true,
+ "model_object": null,
+ "model_marked": null,
+ "false_success": false
+}

@@ -1,0 +1,22 @@
+t,kind,name,model_state,info
+2.8,event,v_detect,H/S/O/F/Tb,предмет распознан камерой
+2.8,cmd,b_go_table,mT/S/O/F/Tb,"к (0.03, 0.11)"
+10.512,event,b_arrive,T/S/O/F/Tb,ошибка позы 0.010 м
+10.512,inject,shift,T/S/O/F/Tb,предмет смещён на 60 мм после подъезда
+10.512,cmd,a_reach,T/R/O/F/Tb,над столом
+13.04,event,a_reached,T/X/O/F/Tb,
+13.04,cmd,g_close,T/X/C/F/Tb,
+14.528,event,g_miss,T/X/O/F/Tb,зазор пальцев 0.0000: промах
+14.528,cmd,a_stow,T/W/O/F/Tb,
+17.056,event,a_stowed,T/S/O/F/Tb,
+17.056,cmd,b_go_table,mT/S/O/F/Tb,"к (0.03, 0.17)"
+18.544,event,b_arrive,T/S/O/F/Tb,ошибка позы 0.010 м
+18.544,cmd,a_reach,T/R/O/F/Tb,над столом
+21.072,event,a_reached,T/X/O/F/Tb,
+21.072,cmd,g_close,T/X/C/F/Tb,
+22.56,event,g_ok,T/X/D/F/Hn,зазор пальцев 0.0008
+22.56,cmd,a_stow,T/W/D/F/Hn,с предметом
+25.072,event,a_stowed,T/S/D/F/Hn,
+25.072,cmd,b_go_box,mB/S/D/F/Hn,"к (-0.60, -1.40)"
+26.0,event,b_block,sB/S/D/F/Hn,препятствие в 0.12 м
+26.496,cmd,b_replan,mB/S/D/F/Hn,"объезд через (0.37, 0.45)"

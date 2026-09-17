@@ -1,0 +1,21 @@
+{
+ "run": "slip_nomon_s1",
+ "scenario": "slip",
+ "monitor": false,
+ "supervisor": true,
+ "seed": 1,
+ "denied": 0,
+ "r1_violation_steps": 0,
+ "r1_violation_episodes": 0,
+ "events": 9,
+ "result": "delivered",
+ "time_s": 37.79,
+ "object_xy": [
+  0.059,
+  -0.637
+ ],
+ "object_in_box": false,
+ "model_object": "Bx",
+ "model_marked": true,
+ "false_success": true
+}

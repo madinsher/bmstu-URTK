@@ -1,0 +1,21 @@
+{
+ "run": "obstacle_s3",
+ "scenario": "obstacle",
+ "monitor": false,
+ "supervisor": true,
+ "seed": 3,
+ "denied": 0,
+ "r1_violation_steps": 0,
+ "r1_violation_episodes": 0,
+ "events": 10,
+ "result": "delivered",
+ "time_s": 41.49,
+ "object_xy": [
+  -0.596,
+  -1.863
+ ],
+ "object_in_box": true,
+ "model_object": "Bx",
+ "model_marked": true,
+ "false_success": false
+}

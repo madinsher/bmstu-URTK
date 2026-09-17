@@ -1,0 +1,21 @@
+{
+ "run": "shift35_s2",
+ "scenario": "miss",
+ "monitor": false,
+ "supervisor": true,
+ "seed": 2,
+ "denied": 0,
+ "r1_violation_steps": 0,
+ "r1_violation_episodes": 0,
+ "events": 2,
+ "result": "arm_timeout",
+ "time_s": 19.52,
+ "object_xy": [
+  0.499,
+  0.149
+ ],
+ "object_in_box": false,
+ "model_object": "Tb",
+ "model_marked": false,
+ "false_success": false
+}
